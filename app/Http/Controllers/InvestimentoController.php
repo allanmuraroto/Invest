@@ -13,8 +13,8 @@ class InvestimentoController extends Controller
      */
     public function index()
     {
-        return redirect()->route('index');
-        /* return view('site.index'); */
+        /* return redirect()->route('index'); */
+        return view('site.index');
     }
 
     /**
